@@ -1,0 +1,22 @@
+            ID: Identification of a given tunnel cluster = ranking of a given cluster 
+                based on the Priority.
+            No: Total number of tunnels belonging to a given cluster.
+      No_snaps: Nubmer of snapshots with at least one tunnel 
+                with a radius >= probe_radius (see config.txt).
+        Avg_BR: Average bottleneck radius [A].
+        Max_BR: Maximimum bottleneck radius [A].
+         Avg_L: Average tunnel length [A].
+         Avg_C: Average tunnel curvature.
+      Priority: Tunnel priority calculated by averaging tunnel
+                throughputs over all snapshots (zero value used for 
+                snapshots without tunnel).
+Avg_throughput: Average tunnel throughput.
+   Avg_up_E_BR: Average upper error bound of bottleneck radius estimation.
+   Avg_up_E_TR: Average upper error bound of tunnel profile radii estimation.
+   Max_up_E_BR: Maximal upper errors bound of bottleneck radii estimation.
+   Max_up_E_TR: Maximal upper error bound of tunnel radii estimation.
+            SD: Standard deviation [A].
+All averaged values are calculated over snapshots, where a given cluster has at least one tunnel. The only exception is the Priority, where the average is calculated over all snapshots.
+If there are more tunnels in one snapshot, the cheapest tunnel is chosen. 
+
+

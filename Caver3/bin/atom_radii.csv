@@ -1,0 +1,118 @@
+number;symbol;name;van der Waals
+0;Unk;VDW_radius_unknown;200
+1;H;hydrogen;120
+2;He;helium;140
+3;Li;lithium;182
+4;Be;beryllium;153
+5;B;boron;192
+6;C;carbon;170
+7;N;nitrogen;155
+8;O;oxygen;152
+9;F;fluorine;147
+10;Ne;neon;154
+11;Na;sodium;227
+12;Mg;magnesium;173
+13;Al;aluminium;184
+14;Si;silicon;210
+15;P;phosphorus;180
+16;S;sulfur;180
+17;Cl;chlorine;175
+18;Ar;argon;188
+19;K;potassium;275
+20;Ca;calcium;231
+21;Sc;scandium;211
+22;Ti;titanium;no data
+23;V;vanadium;no data
+24;Cr;chromium;no data
+25;Mn;manganese;no data
+26;Fe;iron;no data
+27;Co;cobalt;no data
+28;Ni;nickel;163
+29;Cu;copper;140
+30;Zn;zinc;139
+31;Ga;gallium;187
+32;Ge;germanium;211
+33;As;arsenic;185
+34;Se;selenium;190
+35;Br;bromine;185
+36;Kr;krypton;202
+37;Rb;rubidium;303
+38;Sr;strontium;249
+39;Y;yttrium;no data
+40;Zr;zirconium;no data
+41;Nb;niobium;no data
+42;Mo;molybdenum;no data
+43;Tc;technetium;no data
+44;Ru;ruthenium;no data
+45;Rh;rhodium;no data
+46;Pd;palladium;163
+47;Ag;silver;172
+48;Cd;cadmium;158
+49;In;indium;193
+50;Sn;tin;217
+51;Sb;antimony;206
+52;Te;tellurium;206
+53;I;iodine;198
+54;Xe;xenon;216
+55;Cs;caesium;343
+56;Ba;barium;268
+57;La;lanthanum;no data
+58;Ce;cerium;no data
+59;Pr;praseodymium;no data
+60;Nd;neodymium;no data
+61;Pm;promethium;no data
+62;Sm;samarium;no data
+63;Eu;europium;no data
+64;Gd;gadolinium;no data
+65;Tb;terbium;no data
+66;Dy;dysprosium;no data
+67;Ho;holmium;no data
+68;Er;erbium;no data
+69;Tm;thulium;no data
+70;Yb;ytterbium;no data
+71;Lu;lutetium;no data
+72;Hf;hafnium;no data
+73;Ta;tantalum;no data
+74;W;tungsten;no data
+75;Re;rhenium;no data
+76;Os;osmium;no data
+77;Ir;iridium;no data
+78;Pt;platinum;175
+79;Au;gold;166
+80;Hg;mercury;155
+81;Tl;thallium;196
+82;Pb;lead;202
+83;Bi;bismuth;207
+84;Po;polonium;197
+85;At;astatine;202
+86;Rn;radon;220
+87;Fr;francium;348
+88;Ra;radium;283
+89;Ac;actinium;no data
+90;Th;thorium;no data
+91;Pa;protactinium;no data
+92;U;uranium;186
+93;Np;neptunium;no data
+94;Pu;plutonium;no data
+95;Am;americium;no data
+96;Cm;curium;no data
+97;Bk;berkelium;no data
+98;Cf;californium;no data
+99;Es;einsteinium;no data
+100;Fm;fermium;no data
+101;Md;mendelevium;no data
+102;No;nobelium;no data
+103;Lr;lawrencium;no data
+104;Rf;rutherfordium;no data
+105;Db;dubnium;no data
+106;Sg;seaborgium;no data
+107;Bh;bohrium;no data
+108;Hs;hassium;no data
+109;Mt;meitnerium;no data
+110;Ds;darmstadtium;no data
+111;Rg;roentgenium;no data
+112;Cn;copernicium;no data
+113;Uut;ununtrium;no data
+114;Uuq;ununquadium;no data
+115;Uup;ununpentium;no data
+116;Uuh;ununhexium;no data

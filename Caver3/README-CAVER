@@ -1,0 +1,51 @@
+This is CAVER 3.02. Please check http://www.caver.cz/ for the latest release.
+
+
+Version 3.02
+------------
+- More efficient version of UPGMA clustering algorithm is available and used
+as default. Previous version can still be used by setting 'clustering_algorithm'
+to 'loewenstein' (default is the efficient algorithm - 'murtagh'). Disc space
+is no longer needed to store distance matrix. Clustering speed benefits from
+large RAM (and accordingly set java -Xmx values).
+
+
+Version 3.01
+------------
+- The starting point optimization procedure was corrected. Previously, the
+starting vertex was sometimes identified in too narrow cavity due to error
+in implementation. The change can lead to minor changes in the geometric
+properties of tunnels, similarly as if the parameter seed is modified.
+Return to the previous behavior is possible by setting 'correct_voronoi_diagram'
+to 'no' (this is not recommended).
+
+- Previously, three letters were expected for residue name when reading PDB
+files (columns 18 - 20). This complies to the PBB file Format Guide, however,
+some structures use four letters (columns 18 - 21). CAVER now reads four letters
+as default, but it is possible to return to the three letter mode by setting
+'long_residue_names' to 'no'.
+
+- The atom serial number can now be composed of letters, not just digits. In such
+cases, letters are interpreted as additional digits 10, 11, 12, etc. This is useful
+for loading large PDB files.
+
+
+Version 3.0
+-----------
+- The parameter add_central_sphere was added and activated. This removes
+cospherical positions of centers of balls representing one atom, which sometimes
+caused placement of starting point in the center of an atom. The change can lead
+to minor changes in the geometric properties of tunnels, similarly as if the
+parameter seed is modified. It is recommended not to change the default value.
+
+- Default value of the parameter average_surface_point_min_angle was changed
+ from 5.73 to 5. This can lead to minor changes in results of clustering.
+
+
+Version 3.0 BETA 4
+------------------
+- Chovancova, E., Pavelka, A., Benes, P., Strnad, O., Brezovsky, J., Kozlikova, B.,
+Gora, A., Sustr, V., Klvana, M., Medek, P., Biedermannova, L., Sochor,
+J. Damborsky, J. (2012). CAVER 3.0: A Tool for the Analysis of Transport Pathways
+in Dynamic Protein Structures. PLoS Comput Biol 8: e1002708. doi:10.1371/journal.pcbi.1002708
+

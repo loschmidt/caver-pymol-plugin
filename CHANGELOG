@@ -1,0 +1,3 @@
+v3.0.3
+  * add support for PyMOL >= 2.0
+  * simplify installation procedure (patch provided by Thomas Holder, Schrodinger Inc.)

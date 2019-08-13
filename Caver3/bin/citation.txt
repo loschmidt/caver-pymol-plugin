@@ -1,0 +1,9 @@
+-----------------------------------------------------------------------
+ Thank you for using CAVER, please cite:
+
+ Chovancova, E., Pavelka, A., Benes, P., Strnad, O., Brezovsky, J.,
+ Kozlikova, B., Gora, A., Sustr, V., Klvana, M., Medek, P.,
+ Biedermannova, L., Sochor, J. Damborsky, J. (2012) CAVER 3.0: A Tool
+ for the Analysis of Transport Pathways in Dynamic Protein Structures.
+ PLoS Comput Biol 8: e1002708. doi:10.1371/journal.pcbi.1002708
+-----------------------------------------------------------------------
