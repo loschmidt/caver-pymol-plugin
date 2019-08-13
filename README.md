@@ -8,7 +8,7 @@ Website: <https://www.caver.cz>
 
 ## Contributors:
 * Human Computer Interaction Laboratory Faculty of Informatics, Masaryk University
-* Loschmidt Laboratories, Department of Experimental Biology and Research Centre for ToxicCompounds in the Environment Faculty of Science, Masaryk University
+* Loschmidt Laboratories, Department of Experimental Biology and Research Centre for Toxic Compounds in the Environment Faculty of Science, Masaryk University
 * Thomas Holder, Schrodinger Inc.
 
 
