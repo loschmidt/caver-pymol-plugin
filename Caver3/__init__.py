@@ -210,7 +210,7 @@ class PyJava:
             "-out", out_dir,
         ]
         print("*** Caver will be called using command ***")
-        print(self.cmd)
+        print(" ".join([ '"%s"' % t if t != "java" and t[0] != "-" else t for t in self.cmd]))
         print("******************************************")
 
     def java_present(self):
@@ -251,7 +251,7 @@ class PyJava:
             try:
                 p = subprocess.check_output(args, stderr=subprocess.STDOUT, stdin=subprocess.PIPE)
                 if not silent:
-                    print(p)
+                    print(p.decode('UTF-8'))
             except subprocess.CalledProcessError as e:
                 if not silent:
                     print(e)
