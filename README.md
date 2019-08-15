@@ -19,10 +19,11 @@ Website: <https://www.caver.cz>
 ## Installation instructions
 
 1. Install Java 8 (www.java.com)
-2. Start PyMOL
-3. Open Plugin manager (Plugin -> Plugin manager)
-4. Install plugin (Install new plugin -> Choose file... and select downloaded zip file)
-5. Restart PyMOL
+2. Download [plugin](https://github.com/loschmidt/caver-pymol-plugin/archive/master.zip)
+3. Start PyMOL
+4. Open Plugin manager (Plugin -> Plugin manager)
+5. Install plugin (Install new plugin -> Choose file... and select downloaded zip file)
+6. Restart PyMOL
 
 ## License
 
