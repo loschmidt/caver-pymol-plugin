@@ -322,8 +322,6 @@ class AnBeKoM:
 
         #self.stdam_list = [ 'ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'HIS', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL', 'ASX', 'CYX', 'GLX', 'HI0', 'HID', 'HIE', 'HIM', 'HIP', 'MSE', 'ACE', 'ASH', 'CYM', 'GLH', 'LYN', 'NME']
         self.stdam_list = ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'HIS', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
-        self.transparent_list = ['HOH', 'H20', 'WAT', 'DOD', 'D20']
-        #transparent_list = ['HOH', 'H20', 'WAT', 'TIP', 'SOL', 'DOD', 'D20', 'EOH', 'MOH', 'PER', 'PO4', 'SO4', 'SUL', 'IOD', 'CL']
 
         def quickFileValidation(s):
             if s == '': return Pmw.PARTIAL
@@ -1103,11 +1101,8 @@ class AnBeKoM:
                         self.s[self.AAKEY].set(1)
                     else:
                         self.s[a.resn] = IntVar()
-                        if (self.containsValue(self.transparent_list, a.resn)):
-                            # uncheck waters and such
-                            self.s[a.resn].set(0)
-                        else:
-                            self.s[a.resn].set(1)
+                        # uncheck all ligands by default
+                        self.s[a.resn].set(0)
         self.reinitialise()
 
     def reinitialiseFromConfig(self):
