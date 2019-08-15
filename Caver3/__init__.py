@@ -700,7 +700,7 @@ class AnBeKoM:
             outdirInputs = self.out_dir + "/" + self.inputsSubdir
             self.CreateDirectory(outdirInputs)
 
-            self.stdamString = string.join(self.stdam_list, "+")
+            self.stdamString = "+".join(self.stdam_list)
             # jen to zaskrtnute
             generatedString = ""
             for key in self.s:
@@ -1074,7 +1074,7 @@ class AnBeKoM:
         self.dataStructure.replace("desired_radius",self.optimizeRadius.get(), 0)
         #print("len" + str(len(self.dataStructure.getKeys()))  + str(len(self.dataStructure.getValues())))
     def stdamMessage(self):
-        Pmw.MessageDialog(self.parent,title = 'Information',message_text = self.AAKEY + ': Standard amino acids: \n ' + string.join(self.stdam_list, ", "))
+        Pmw.MessageDialog(self.parent,title = 'Information',message_text = self.AAKEY + ': Standard amino acids: \n ' + ", ".join(self.stdam_list))
 
     def inputAnalyseWrap(self, args):
             #print(self.listbox1.curselection()[0] # aby to fungovalo, musi byt bindnute na <<ListboxSelect>>)
